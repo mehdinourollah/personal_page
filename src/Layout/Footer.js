@@ -42,31 +42,31 @@ class Footer extends React.Component {
           <div className="footer__inner">
 
 
+          <div className="footer__content">
+          {quote ?
+            <Container fluid={true}>
+              <Row>
+                <Col xs="3"><span style={{ position: 'absolute', bottom: 0 }}>{new Date().getFullYear()}               </span></Col>
+                <Col xs="6" ><div style={{ fontSize: 'auto' }} > {quote ? quote.quote : ''} <br /> {quote ? quote.author : ''}</div></Col>
+
+
+
+                <Col xs="3"><span style={{ position: 'absolute', bottom: 0 }}>Mehdi Nourollah</span></Col>
+              </Row>
+            </Container>
+            : <> <span>{new Date().getFullYear()}               </span>
+              <span>Mehdi Nourollah</span>
+            </>}
+          </div>
+          </div>
+          {/* <div className="footer__inner">
             <div className="footer__content">
-              {quote ?
-                <Container>
-                  <Row>
-                    <Col><span>{new Date().getFullYear()}               </span></Col>
-                    <Col><div style={{ fontSize: 'auto' }} > {quote ? quote.quote : ''} <br /> {quote ? quote.author : ''}</div></Col>
-
-
-
-                    <Col><span>Mehdi Nourollah</span></Col>
-                  </Row>
-                </Container>
-                : <> <span>{new Date().getFullYear()}               </span>
-                  <span>Mehdi Nourollah</span>
-                </>}
             </div>
           </div>
           <div className="footer__inner">
             <div className="footer__content">
             </div>
-          </div>
-          <div className="footer__inner">
-            <div className="footer__content">
-            </div>
-          </div>
+          </div> */}
         </footer>
 
       </div>
