@@ -43,7 +43,7 @@ function Header(props) {
                 </span>
               </Col>
               <Col>
-                <a href="https://registry.jsonresume.org/mehdinourollah?theme=elegant"><span ><b>CV</b></span></a>
+                <a href="https://registry.jsonresume.org/mehdinourollah?theme=StackOverFlow"><span ><b>CV</b></span></a>
               </Col>
             </Row>
           </Container>
